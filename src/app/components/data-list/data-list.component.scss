@@ -1,0 +1,55 @@
+$border-color: #f0f0f0;
+$light-gray: #f4f4f4;
+$almost-white: #fafafa;
+$dark-gray: #717273;
+
+p {
+  margin: 0;
+  color: $dark-gray;
+}
+
+section {
+  border: 1px solid $border-color;
+  margin: 50px;
+  border-radius: 15px;
+}
+
+.header {
+  display: flex;
+  padding: 16px;
+  background-color: $light-gray;
+  border-radius: 15px 15px 0 0;
+
+  .key {
+    flex: 4;
+    font-weight: bold;
+  }
+  .value {
+    flex: 5;
+    font-weight: bold;
+  }
+}
+
+.item-wrapper {
+  display: flex;
+  padding: 16px;
+
+  .key {
+    flex: 4;
+  }
+  .value {
+    flex: 5;
+  }
+}
+
+// pseudo-class selector
+
+.item-wrapper:nth-child(even) {
+  background-color: white;
+}
+.item-wrapper:nth-child(odd) {
+  background-color: $almost-white;
+}
+.item-wrapper:last-child {
+  border-radius: 0 0 15px 15px;
+}

@@ -1,3 +1,9 @@
+section {
+  display: flex;
+  padding: 60px;
+  align-items: center;
+}
+
 p {
   margin: 0;
 }
@@ -5,15 +11,6 @@ p {
 img {
   width: 45px;
   height: 45px;
-}
-
-section {
-  display: flex;
-  margin: 30px;
-  align-items: center;
-}
-
-img {
   object-fit: cover;
   border-radius: 50%;
   margin-right: 6px;
