@@ -9,12 +9,13 @@ p {
 }
 
 section {
-  border: 1px solid $border-color;
   margin: 50px;
+  border: 1px solid $border-color;
   border-radius: 15px;
 }
 
 .header {
+  // we use flexbox to arrange the key and value paragraphs side by side within the header div.
   display: flex;
   padding: 16px;
   background-color: $light-gray;
@@ -42,14 +43,14 @@ section {
   }
 }
 
-// pseudo-class selector
+.item-wrapper:nth-child(odd) {
+  background-color: $almost-white;
+}
 
 .item-wrapper:nth-child(even) {
   background-color: white;
 }
-.item-wrapper:nth-child(odd) {
-  background-color: $almost-white;
-}
+
 .item-wrapper:last-child {
   border-radius: 0 0 15px 15px;
 }
