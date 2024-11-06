@@ -1,0 +1,19 @@
+section {
+  padding-top: 120px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -7,4 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: 'user-profile-card.component.html',
   styleUrl: 'user-profile-card.component.scss',
 })
-export class UserProfileCardComponentComponent {}
+export class UserProfileCardComponent {}
